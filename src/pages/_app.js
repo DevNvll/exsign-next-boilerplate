@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../css/tailwind.css'
+import '../css/main.css'
 import GoogleFonts from 'next-google-fonts'
 import { DefaultSeo } from 'next-seo'
 
