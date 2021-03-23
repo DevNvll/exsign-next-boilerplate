@@ -1,6 +1,8 @@
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    [process.env.NODE_ENV === 'production'
+      ? 'tailwindcss'
+      : '@tailwindcss/jit']: {},
     autoprefixer: {}
   }
 }
